@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <div>
-      <div style={{ height: "15vh" }}>
+      <div style={{ height: "25vh" }}>
         <Navbar />
       </div>
       <div style={{ minHeight: "75vh" }}>
