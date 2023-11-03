@@ -1,0 +1,20 @@
+/* ProductCard.css */
+
+.card {
+    max-width: 345px;
+    margin-bottom: 16px;
+  }
+  
+  .card-media {
+    height: 140px;
+    object-fit: cover; /* Controla el tamaño y ajuste de la imagen */
+  }
+  
+  .card-title {
+    font-size: 24px; /* Tamaño del título */
+  }
+  
+  .card-price {
+    color: #007bff; /* Color del precio */
+  }
+  
