@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { products } from "../../../productsMock";
 import { ItemDetail } from "./ItemDetail";
 import { useParams } from "react-router-dom"
+import "./ItemDetailContainer.css"
 
 const ItemDetailContainer = () => {
   const [productSelected, setProductSelected] = useState({});
@@ -13,7 +14,6 @@ const ItemDetailContainer = () => {
 
     const getProduct = new Promise((resolve, reject) => {
       resolve(producto);
-      // reject("error");
     });
 
     getProduct
@@ -26,7 +26,6 @@ const ItemDetailContainer = () => {
       ...productSelected,
       quantity: cantidad,
     };
-    console.log("este es el producto que se agrega", obj);
   };
 
   return <ItemDetail productSelected={productSelected} onAdd={onAdd} />;

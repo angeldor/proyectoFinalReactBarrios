@@ -1,0 +1,25 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfc9ff;
+    padding: 0 ;
+    margin: 0 2em;
+    border-radius: 10px;
+
+}
+.detail h2{
+    font-size: 2.5em;
+}
+.detail img{
+    height: 50vh;
+    width: 50vh;
+}
+.detail p{
+    font-size: 1.5em;
+}
+.detail button{
+    background-color: #6b5fda;
+    font-size: 1.3em;
+}
