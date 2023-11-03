@@ -9,13 +9,6 @@ const Cart = () => {
       <p>
         Aqui se verán todos los articulos que agregaste a tu carrito de compra
       </p>
-      <Link to="/">
-          <h2>
-            <SmartToyIcon fontSize="large" />
-            Volver a la pagina principal
-            <ToysIcon fontSize="large" />
-          </h2>
-        </Link>
     </div>
   );
 };
