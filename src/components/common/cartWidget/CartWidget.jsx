@@ -5,15 +5,13 @@ import { useContext } from "react";
 import { CartContext } from "../../../context/CartContext";
 
 const CartWidget = () => {
+  const { getTotalQuantity } = useContext(CartContext);
 
-  const { getTotalQuantity } = useContext( CartContext )
-
-  let total = getTotalQuantity()
- 
+  let total = getTotalQuantity();
 
   return (
     <Link to="/cart">
-      <Badge badgeContent={total} showZero color="primary">
+      <Badge badgeContent={total} showZero color="secondary">
         <ShoppingBasketIcon color="action" />
       </Badge>
     </Link>

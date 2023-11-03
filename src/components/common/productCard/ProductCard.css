@@ -1,20 +1,24 @@
-/* ProductCard.css */
-
 .card {
-    max-width: 345px;
+    width: 14vw;
     margin-bottom: 16px;
+    ;
   }
-  
-  .card-media {
-    height: 140px;
-    object-fit: cover; /* Controla el tamaño y ajuste de la imagen */
-  }
-  
-  .card-title {
-    font-size: 24px; /* Tamaño del título */
-  }
-  
-  .card-price {
-    color: #007bff; /* Color del precio */
-  }
-  
+
+.card-media {
+  height: 140px;
+  object-fit: cover;
+  background-color: #b3a4f3;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-price {
+  color: #007bff;
+}
+#detalle{
+  color: #6b5fda;
+  border-color: #6b5fda;
+}
+
