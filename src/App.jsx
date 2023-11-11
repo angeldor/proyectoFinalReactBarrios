@@ -3,6 +3,7 @@ import AppRouter from "./router/AppRouter";
 import CartContextComponent from "./context/CartContext";
 
 function App() {
+  
   return (
     <BrowserRouter>
       <CartContextComponent>
