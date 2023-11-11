@@ -1,6 +1,5 @@
 export let products = [
     {
-        id: 1,
         title: "Peluche Stich",
         price: 15000,
         stock: 10,
@@ -9,7 +8,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649150/imagenesCorregidas/lfvtoayo0jskvar2vayg.jpg"
     },
     {
-        id: 2,
         title: "Peluche Snorlax",
         price: 26000,
         stock: 5,
@@ -18,7 +16,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649149/imagenesCorregidas/kkjubzfe989zw1zkw3gi.webp"
     },
     {
-        id: 3,
         title: "Peluche Oso Te Amo",
         price: 30000,
         stock: 6,
@@ -27,7 +24,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649148/imagenesCorregidas/d9mivui0qsxvuc2a7d9c.webp"
     },
     {
-        id: 4,
         title: "Kit construyelo tu mismo!",
         price: 45000,
         stock: 4,
@@ -36,7 +32,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595276/construccion/kit-construyelo-tu-mismo.jpg"
     },
     {
-        id: 5,
         title: "Bulldozer para niños",
         price: 13000,
         stock: 10,
@@ -45,7 +40,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595275/construccion/bulldozer.jpg"
     },
     {
-        id: 6,
         title: "Blocky Mi ciudad",
         price: 35000,
         stock: 8,
@@ -54,7 +48,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595275/construccion/blocky-ciudad.webp"
     },
     {
-        id: 7,
         title: "TEG",
         price: 32000,
         stock: 12,
@@ -63,7 +56,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649151/imagenesCorregidas/xz6pltmqirg7r5bu2m7r.jpg"
     },
     {
-        id: 8,
         title: "Pictureka",
         price: 25000,
         stock: 14,
@@ -72,7 +64,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649150/imagenesCorregidas/fov63bgyigi77lpmninv.jpg"
     },
     {
-        id: 9,
         title: "Monopoly",
         price: 19995,
         stock: 25,
@@ -81,7 +72,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649148/imagenesCorregidas/fm1wzesljgo98ivvexlb.jpg"
     },
     {
-        id: 10,
         title: "Números Educativos",
         price: 10500,
         stock: 30,
@@ -90,7 +80,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649152/imagenesCorregidas/rekkcovkyojvqisvdtwr.jpg"
     },
     {
-        id: 11,
         title: "Pizarra magnetica con letras",
         price: 12300,
         stock: 25,
@@ -99,7 +88,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649150/imagenesCorregidas/umrnb76kbfsf2gltb3bq.webp"
     },
     {
-        id: 12,
         title: "Pelota de Voley",
         price: 6700,
         stock: 8,
@@ -108,7 +96,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649149/imagenesCorregidas/fzv1f1lausexowkt1z9g.jpg"
     },
     {
-        id: 13,
         title: "Pelota Futbol Qatar 2022",
         price: 8700,
         stock: 12,
@@ -117,7 +104,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649147/imagenesCorregidas/vtsieqsto0yukujlhqiw.jpg"
     },
     {
-        id: 14,
         title: "Pelota Futbol Wilson",
         price: 18990,
         stock: 6,
@@ -126,7 +112,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697649148/imagenesCorregidas/ku9km7c6v7kephulvuga.webp"
     },
     {
-        id: 15,
         title: "Frisbee Profesional Pro Classic",
         price: 3500,
         stock: 11,
@@ -135,7 +120,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595308/al-aire-libre/frisbee.jpg"
     },
     {
-        id: 16,
         title: "Kit 3 figuras Star Wars",
         price: 75300,
         stock: 3,
@@ -144,7 +128,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595325/decorativos/star-wars-bundle-figuras.webp"
     },
     {
-        id: 17,
         title: "Figura Superman",
         price: 22300,
         stock: 5,
@@ -153,7 +136,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595325/decorativos/superman.webp"
     },
     {
-        id: 18,
         title: "Figura Darth Vader Star Wars Limited Edition",
         price: 56500,
         stock: 2,
@@ -162,7 +144,6 @@ export let products = [
         img: "https://res.cloudinary.com/du287bapb/image/upload/v1697595324/decorativos/darth-vader.webp"
     },
     {
-        id: 19,
         title: "Figura impresa en 3D Batman",
         price: 12000,
         stock: 99,

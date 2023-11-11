@@ -1,0 +1,64 @@
+.container{
+    height: 50vh;
+    background-color: #cfc9ff;
+    width: 400px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    border-radius: 10px;
+}
+
+.container input{
+    height: 40px;
+    width: 320px;
+    border-radius: 7px;
+    font-size: large;
+    padding: 8px;
+    border: none;
+}
+
+.container button{
+    width: 15vw;
+    color: #6b5fda;
+    background-color: #cfc9ff;
+    border: #6b5fda solid 1px;
+    
+}
+
+.container button:hover{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 5px #6b5fda;
+}
+
+.contenedorcheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked{
+    background-color: #6b5fda;
+    height: 50vh;
+    background-color: #cfc9ff;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.checked button{
+    width: 350px;
+    color: #6b5fda;
+    background-color: #cfc9ff;
+    border: #6b5fda solid 1px;
+    height: 45px;
+}
+
+.checked button:hover{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 5px #6b5fda;
+}
