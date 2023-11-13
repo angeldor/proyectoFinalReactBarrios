@@ -14,6 +14,7 @@ const Checkout = () => {
     email: "",
     address1: "",
     address2: "",
+    cp: ""
   });
 
   const [orderId, setOrderId] = useState(null);
