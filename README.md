@@ -1,7 +1,7 @@
-#Ecommerce de La niña mimada
-##Proyecto Final Coder House
+# Ecommerce de La niña mimada
+## Proyecto Final Coder House
 
-###Introducción
+### Introducción
 La página web de ecommerce de La niña mimada es una aplicación web desarrollada en ReactJS con Vite y Firebase. Se utiliza Material UI para los estilos y es una página SPA.
 La página web permite a los usuarios comprar juguetes de la tienda La niña mimada. Los usuarios pueden navegar por los productos, añadirlos a su carrito de la compra y una orden de compra.
 ### Requisitos previos
